@@ -40,13 +40,13 @@ OPENAI_EMBEDDING_MODEL=text-embedding-3-small
 
 ### 3. エンジンの配置
 
-別途配布されるエンジンファイルを`engines/`ディレクトリに配置してください。
+エンジンファイルを`engines/`ディレクトリに配置してください。
 
 ```
 engines/
 ├── YaneuraOu/
-│   ├── YaneuraOu_NNUE_KAI.exe
-│   └── suisho7.nnue
+│   ├── YaneuraOu_NNUE.exe
+│   └── suisho5.nnue
 └── maia2-shogi-v2/
     ├── maia2-net.pth
     └── ...
@@ -54,7 +54,7 @@ engines/
 
 ### 4. 訓練データの配置
 
-別途配布されるデータファイルを`data/`ディレクトリに配置してください。
+データファイルを`data/`ディレクトリに配置してください。
 
 ```
 data/
