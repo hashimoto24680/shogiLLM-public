@@ -1,0 +1,24 @@
+
+# Shogi Logic & USI
+cshogi>=0.6.0
+
+# AI / ML Core
+torch>=2.0.0
+numpy
+pandas
+scikit-learn
+transformers>=4.30.0
+
+# LLM API
+openai
+python-dotenv
+
+# Web App
+streamlit
+altair
+
+# Utilities
+tqdm
+matplotlib
+jupyter
+tensorboard

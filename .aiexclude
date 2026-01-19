@@ -1,0 +1,6 @@
+# .aiexclude - Antigravity用のアクセス許可設定
+# .gitignore でブロックされているファイルへのアクセスを許可
+
+# cshogi のソースコードへのアクセスを許可
+!.venv/Lib/site-packages/cshogi/**/*.py
+!**/Engine.py

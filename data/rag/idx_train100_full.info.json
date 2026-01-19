@@ -1,0 +1,9 @@
+{
+  "embedding_model": "text-embedding-3-small",
+  "count": 11315,
+  "dim": 1536,
+  "max_feature_chars": 2000,
+  "max_example_commentary_chars": 300,
+  "source_jsonl": "data\\training\\training_data_filtered.jsonl",
+  "created_at": "2026-01-11 15:24:20"
+}

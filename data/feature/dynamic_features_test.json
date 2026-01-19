@@ -1,0 +1,5232 @@
+{
+  "before": {
+    "sfen": "ln1g3nl/1ks1gr3/1ppppsbpp/p4pp2/7P1/P1P1P1P2/1P1PSP2P/1BKS3R1/LNG1G2NL b - 1",
+    "dlshogi_score": 354,
+    "sente_activity_total": 4879,
+    "gote_activity_total": 6382,
+    "material": {
+      "sente_score": 6300,
+      "gote_score": 6300,
+      "advantage": 0,
+      "description": "駒の損得なし",
+      "sente_hand": {
+        "歩": 0,
+        "香": 0,
+        "桂": 0,
+        "銀": 0,
+        "金": 0,
+        "角": 0,
+        "飛": 0
+      },
+      "gote_hand": {
+        "歩": 0,
+        "香": 0,
+        "桂": 0,
+        "銀": 0,
+        "金": 0,
+        "角": 0,
+        "飛": 0
+      }
+    },
+    "king_safety": [
+      {
+        "color": "先手",
+        "king_square": "7八",
+        "gold_count": 6,
+        "density": 0.63,
+        "safety_score": 91
+      },
+      {
+        "color": "後手",
+        "king_square": "8二",
+        "gold_count": 3,
+        "density": 0.53,
+        "safety_score": 56
+      }
+    ],
+    "castles": [
+      {
+        "name": "美濃囲い",
+        "color": "後手",
+        "confidence": 1.0
+      },
+      {
+        "name": "木村美濃",
+        "color": "後手",
+        "confidence": 0.72
+      },
+      {
+        "name": "片美濃囲い",
+        "color": "後手",
+        "confidence": 1.0
+      },
+      {
+        "name": "エルモ囲い",
+        "color": "先手",
+        "confidence": 1.0
+      },
+      {
+        "name": "右矢倉",
+        "color": "後手",
+        "confidence": 0.8
+      }
+    ],
+    "strategies": [
+      {
+        "name": "パックマン戦法",
+        "color": "先手",
+        "confidence": 0.9
+      },
+      {
+        "name": "パックマン戦法",
+        "color": "後手",
+        "confidence": 0.8
+      },
+      {
+        "name": "新米長玉",
+        "color": "先手",
+        "confidence": 0.8
+      },
+      {
+        "name": "新米長玉",
+        "color": "後手",
+        "confidence": 0.7
+      },
+      {
+        "name": "嬉野流",
+        "color": "先手",
+        "confidence": 0.76
+      },
+      {
+        "name": "四間飛車",
+        "color": "後手",
+        "confidence": 1.0
+      },
+      {
+        "name": "レグスペ",
+        "color": "後手",
+        "confidence": 0.8
+      },
+      {
+        "name": "鬼殺し",
+        "color": "先手",
+        "confidence": 0.78
+      },
+      {
+        "name": "鬼殺し",
+        "color": "後手",
+        "confidence": 0.78
+      },
+      {
+        "name": "居飛車",
+        "color": "先手",
+        "confidence": 1.0
+      }
+    ],
+    "hand_pieces": [
+      {
+        "color": "先手",
+        "pieces": {
+          "歩": 0,
+          "香": 0,
+          "桂": 0,
+          "銀": 0,
+          "金": 0,
+          "角": 0,
+          "飛": 0
+        }
+      },
+      {
+        "color": "後手",
+        "pieces": {
+          "歩": 0,
+          "香": 0,
+          "桂": 0,
+          "銀": 0,
+          "金": 0,
+          "角": 0,
+          "飛": 0
+        }
+      }
+    ],
+    "squares": {
+      "1一": {
+        "square": "1一",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "香",
+          "color": "後手",
+          "square": "1一",
+          "attack_squares": [
+            "1二",
+            "1三"
+          ],
+          "movable_squares": [
+            "1二"
+          ],
+          "activity": 84
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": null,
+          "右": "2一",
+          "左下": null,
+          "下": "1二",
+          "右下": "2二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "3三"
+          }
+        ]
+      },
+      "1二": {
+        "square": "1二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": null,
+          "上": "1一",
+          "右上": "2一",
+          "左": null,
+          "右": "2二",
+          "左下": null,
+          "下": "1三",
+          "右下": "2三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "1一"
+          },
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          }
+        ]
+      },
+      "1三": {
+        "square": "1三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "1三",
+          "attack_squares": [
+            "1四"
+          ],
+          "movable_squares": [
+            "1四"
+          ],
+          "activity": 29
+        },
+        "adjacent": {
+          "左上": null,
+          "上": "1二",
+          "右上": "2二",
+          "左": null,
+          "右": "2三",
+          "左下": null,
+          "下": "1四",
+          "右下": "2四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "1一"
+          },
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "2一"
+          }
+        ]
+      },
+      "1四": {
+        "square": "1四",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": null,
+          "上": "1三",
+          "右上": "2三",
+          "左": null,
+          "右": "2四",
+          "左下": null,
+          "下": "1五",
+          "右下": "2五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "1三"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "1一"
+          }
+        ]
+      },
+      "1五": {
+        "square": "1五",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": null,
+          "上": "1四",
+          "右上": "2四",
+          "左": null,
+          "右": "2五",
+          "左下": null,
+          "下": "1六",
+          "右下": "2六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "3三"
+          }
+        ]
+      },
+      "1六": {
+        "square": "1六",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": null,
+          "上": "1五",
+          "右上": "2五",
+          "左": null,
+          "右": "2六",
+          "左下": null,
+          "下": "1七",
+          "右下": "2七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "1七"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "1九"
+          }
+        ]
+      },
+      "1七": {
+        "square": "1七",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "1七",
+          "attack_squares": [
+            "1六"
+          ],
+          "movable_squares": [
+            "1六"
+          ],
+          "activity": 10
+        },
+        "adjacent": {
+          "左上": null,
+          "上": "1六",
+          "右上": "2六",
+          "左": null,
+          "右": "2七",
+          "左下": null,
+          "下": "1八",
+          "右下": "2八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "1九"
+          },
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "2九"
+          }
+        ]
+      },
+      "1八": {
+        "square": "1八",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": null,
+          "上": "1七",
+          "右上": "2七",
+          "左": null,
+          "右": "2八",
+          "左下": null,
+          "下": "1九",
+          "右下": "2九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "1九"
+          },
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "1九": {
+        "square": "1九",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "香",
+          "color": "先手",
+          "square": "1九",
+          "attack_squares": [
+            "1八",
+            "1七"
+          ],
+          "movable_squares": [
+            "1八"
+          ],
+          "activity": 68
+        },
+        "adjacent": {
+          "左上": null,
+          "上": "1八",
+          "右上": "2八",
+          "左": null,
+          "右": "2九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        }
+      },
+      "2一": {
+        "square": "2一",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "桂",
+          "color": "後手",
+          "square": "2一",
+          "attack_squares": [
+            "1三",
+            "3三"
+          ],
+          "movable_squares": [],
+          "activity": 213
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "1一",
+          "右": "3一",
+          "左下": "1二",
+          "下": "2二",
+          "右下": "3二"
+        }
+      },
+      "2二": {
+        "square": "2二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "1一",
+          "上": "2一",
+          "右上": "3一",
+          "左": "1二",
+          "右": "3二",
+          "左下": "1三",
+          "下": "2三",
+          "右下": "3三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "3三"
+          },
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          }
+        ]
+      },
+      "2三": {
+        "square": "2三",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "2三",
+          "attack_squares": [
+            "2四"
+          ],
+          "movable_squares": [
+            "2四"
+          ],
+          "activity": 518
+        },
+        "adjacent": {
+          "左上": "1二",
+          "上": "2二",
+          "右上": "3二",
+          "左": "1三",
+          "右": "3三",
+          "左下": "1四",
+          "下": "2四",
+          "右下": "3四"
+        }
+      },
+      "2四": {
+        "square": "2四",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "1三",
+          "上": "2三",
+          "右上": "3三",
+          "左": "1四",
+          "右": "3四",
+          "左下": "1五",
+          "下": "2五",
+          "右下": "3五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "2三"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "2五"
+          },
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "3三"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "2五": {
+        "square": "2五",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "2五",
+          "attack_squares": [
+            "2四"
+          ],
+          "movable_squares": [
+            "2四"
+          ],
+          "activity": 107
+        },
+        "adjacent": {
+          "左上": "1四",
+          "上": "2四",
+          "右上": "3四",
+          "左": "1五",
+          "右": "3五",
+          "左下": "1六",
+          "下": "2六",
+          "右下": "3六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "2六": {
+        "square": "2六",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "1五",
+          "上": "2五",
+          "右上": "3五",
+          "左": "1六",
+          "右": "3六",
+          "左下": "1七",
+          "下": "2七",
+          "右下": "3七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "2七": {
+        "square": "2七",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "1六",
+          "上": "2六",
+          "右上": "3六",
+          "左": "1七",
+          "右": "3七",
+          "左下": "1八",
+          "下": "2八",
+          "右下": "3八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "2八": {
+        "square": "2八",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "飛",
+          "color": "先手",
+          "square": "2八",
+          "attack_squares": [
+            "1八",
+            "3八",
+            "4八",
+            "5八",
+            "6八",
+            "2七",
+            "2六",
+            "2五",
+            "2九"
+          ],
+          "movable_squares": [
+            "1八",
+            "3八",
+            "4八",
+            "5八",
+            "2七",
+            "2六"
+          ],
+          "activity": 758
+        },
+        "adjacent": {
+          "左上": "1七",
+          "上": "2七",
+          "右上": "3七",
+          "左": "1八",
+          "右": "3八",
+          "左下": "1九",
+          "下": "2九",
+          "右下": "3九"
+        }
+      },
+      "2九": {
+        "square": "2九",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "桂",
+          "color": "先手",
+          "square": "2九",
+          "attack_squares": [
+            "1七",
+            "3七"
+          ],
+          "movable_squares": [
+            "3七"
+          ],
+          "activity": 184
+        },
+        "adjacent": {
+          "左上": "1八",
+          "上": "2八",
+          "右上": "3八",
+          "左": "1九",
+          "右": "3九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "3一": {
+        "square": "3一",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "2一",
+          "右": "4一",
+          "左下": "2二",
+          "下": "3二",
+          "右下": "4二"
+        }
+      },
+      "3二": {
+        "square": "3二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "2一",
+          "上": "3一",
+          "右上": "4一",
+          "左": "2二",
+          "右": "4二",
+          "左下": "2三",
+          "下": "3三",
+          "右下": "4三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          },
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "4三"
+          }
+        ]
+      },
+      "3三": {
+        "square": "3三",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "角",
+          "color": "後手",
+          "square": "3三",
+          "attack_squares": [
+            "2二",
+            "1一",
+            "2四",
+            "1五",
+            "4二",
+            "4四"
+          ],
+          "movable_squares": [
+            "2二",
+            "2四",
+            "1五"
+          ],
+          "activity": 911
+        },
+        "adjacent": {
+          "左上": "2二",
+          "上": "3二",
+          "右上": "4二",
+          "左": "2三",
+          "右": "4三",
+          "左下": "2四",
+          "下": "3四",
+          "右下": "4四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "2一"
+          }
+        ]
+      },
+      "3四": {
+        "square": "3四",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "3四",
+          "attack_squares": [
+            "3五"
+          ],
+          "movable_squares": [
+            "3五"
+          ],
+          "activity": 386
+        },
+        "adjacent": {
+          "左上": "2三",
+          "上": "3三",
+          "右上": "4三",
+          "左": "2四",
+          "右": "4四",
+          "左下": "2五",
+          "下": "3五",
+          "右下": "4五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "4三"
+          }
+        ]
+      },
+      "3五": {
+        "square": "3五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "2四",
+          "上": "3四",
+          "右上": "4四",
+          "左": "2五",
+          "右": "4五",
+          "左下": "2六",
+          "下": "3六",
+          "右下": "4六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "3四"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "3六"
+          }
+        ]
+      },
+      "3六": {
+        "square": "3六",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "3六",
+          "attack_squares": [
+            "3五"
+          ],
+          "movable_squares": [
+            "3五"
+          ],
+          "activity": 246
+        },
+        "adjacent": {
+          "左上": "2五",
+          "上": "3五",
+          "右上": "4五",
+          "左": "2六",
+          "右": "4六",
+          "左下": "2七",
+          "下": "3七",
+          "右下": "4七"
+        }
+      },
+      "3七": {
+        "square": "3七",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "2六",
+          "上": "3六",
+          "右上": "4六",
+          "左": "2七",
+          "右": "4七",
+          "左下": "2八",
+          "下": "3八",
+          "右下": "4八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "2九"
+          }
+        ]
+      },
+      "3八": {
+        "square": "3八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "2七",
+          "上": "3七",
+          "右上": "4七",
+          "左": "2八",
+          "右": "4八",
+          "左下": "2九",
+          "下": "3九",
+          "右下": "4九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          }
+        ]
+      },
+      "3九": {
+        "square": "3九",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "2八",
+          "上": "3八",
+          "右上": "4八",
+          "左": "2九",
+          "右": "4九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        }
+      },
+      "4一": {
+        "square": "4一",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "3一",
+          "右": "5一",
+          "左下": "3二",
+          "下": "4二",
+          "右下": "5二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          }
+        ]
+      },
+      "4二": {
+        "square": "4二",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "飛",
+          "color": "後手",
+          "square": "4二",
+          "attack_squares": [
+            "3二",
+            "2二",
+            "1二",
+            "5二",
+            "4一",
+            "4三"
+          ],
+          "movable_squares": [
+            "3二",
+            "2二",
+            "1二",
+            "4一"
+          ],
+          "activity": 718
+        },
+        "adjacent": {
+          "左上": "3一",
+          "上": "4一",
+          "右上": "5一",
+          "左": "3二",
+          "右": "5二",
+          "左下": "3三",
+          "下": "4三",
+          "右下": "5三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "3三"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "5二"
+          }
+        ]
+      },
+      "4三": {
+        "square": "4三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "銀",
+          "color": "後手",
+          "square": "4三",
+          "attack_squares": [
+            "3四",
+            "4四",
+            "5四",
+            "3二",
+            "5二"
+          ],
+          "movable_squares": [
+            "5四",
+            "3二"
+          ],
+          "activity": 487
+        },
+        "adjacent": {
+          "左上": "3二",
+          "上": "4二",
+          "右上": "5二",
+          "左": "3三",
+          "右": "5三",
+          "左下": "3四",
+          "下": "4四",
+          "右下": "5四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "5二"
+          }
+        ]
+      },
+      "4四": {
+        "square": "4四",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "4四",
+          "attack_squares": [
+            "4五"
+          ],
+          "movable_squares": [
+            "4五"
+          ],
+          "activity": 212
+        },
+        "adjacent": {
+          "左上": "3三",
+          "上": "4三",
+          "右上": "5三",
+          "左": "3四",
+          "右": "5四",
+          "左下": "3五",
+          "下": "4五",
+          "右下": "5五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "3三"
+          },
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "4三"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          }
+        ]
+      },
+      "4五": {
+        "square": "4五",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "3四",
+          "上": "4四",
+          "右上": "5四",
+          "左": "3五",
+          "右": "5五",
+          "左下": "3六",
+          "下": "4六",
+          "右下": "5六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "4四"
+          }
+        ]
+      },
+      "4六": {
+        "square": "4六",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": "3五",
+          "上": "4五",
+          "右上": "5五",
+          "左": "3六",
+          "右": "5六",
+          "左下": "3七",
+          "下": "4七",
+          "右下": "5七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "4七"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "5七"
+          }
+        ]
+      },
+      "4七": {
+        "square": "4七",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "4七",
+          "attack_squares": [
+            "4六"
+          ],
+          "movable_squares": [
+            "4六"
+          ],
+          "activity": 227
+        },
+        "adjacent": {
+          "左上": "3六",
+          "上": "4六",
+          "右上": "5六",
+          "左": "3七",
+          "右": "5七",
+          "左下": "3八",
+          "下": "4八",
+          "右下": "5八"
+        }
+      },
+      "4八": {
+        "square": "4八",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "3七",
+          "上": "4七",
+          "右上": "5七",
+          "左": "3八",
+          "右": "5八",
+          "左下": "3九",
+          "下": "4九",
+          "右下": "5九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "5七"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          }
+        ]
+      },
+      "4九": {
+        "square": "4九",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "3八",
+          "上": "4八",
+          "右上": "5八",
+          "左": "3九",
+          "右": "5九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          }
+        ]
+      },
+      "5一": {
+        "square": "5一",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "4一",
+          "右": "6一",
+          "左下": "4二",
+          "下": "5二",
+          "右下": "6二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "5二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          }
+        ]
+      },
+      "5二": {
+        "square": "5二",
+        "attack_balance": -3,
+        "piece": {
+          "piece_type": "金",
+          "color": "後手",
+          "square": "5二",
+          "attack_squares": [
+            "4三",
+            "5三",
+            "6三",
+            "4二",
+            "6二",
+            "5一"
+          ],
+          "movable_squares": [
+            "6二",
+            "5一"
+          ],
+          "activity": 367
+        },
+        "adjacent": {
+          "左上": "4一",
+          "上": "5一",
+          "右上": "6一",
+          "左": "4二",
+          "右": "6二",
+          "左下": "4三",
+          "下": "5三",
+          "右下": "6三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          },
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "4三"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          }
+        ]
+      },
+      "5三": {
+        "square": "5三",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "5三",
+          "attack_squares": [
+            "5四"
+          ],
+          "movable_squares": [
+            "5四"
+          ],
+          "activity": 163
+        },
+        "adjacent": {
+          "左上": "4二",
+          "上": "5二",
+          "右上": "6二",
+          "左": "4三",
+          "右": "6三",
+          "左下": "4四",
+          "下": "5四",
+          "右下": "6四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "5二"
+          }
+        ]
+      },
+      "5四": {
+        "square": "5四",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "4三",
+          "上": "5三",
+          "右上": "6三",
+          "左": "4四",
+          "右": "6四",
+          "左下": "4五",
+          "下": "5五",
+          "右下": "6五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "4三"
+          },
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "5三"
+          }
+        ]
+      },
+      "5五": {
+        "square": "5五",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": "4四",
+          "上": "5四",
+          "右上": "6四",
+          "左": "4五",
+          "右": "6五",
+          "左下": "4六",
+          "下": "5六",
+          "右下": "6六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "5六"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "5六": {
+        "square": "5六",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "5六",
+          "attack_squares": [
+            "5五"
+          ],
+          "movable_squares": [
+            "5五"
+          ],
+          "activity": 215
+        },
+        "adjacent": {
+          "左上": "4五",
+          "上": "5五",
+          "右上": "6五",
+          "左": "4六",
+          "右": "6六",
+          "左下": "4七",
+          "下": "5七",
+          "右下": "6七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "5七"
+          }
+        ]
+      },
+      "5七": {
+        "square": "5七",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "銀",
+          "color": "先手",
+          "square": "5七",
+          "attack_squares": [
+            "4六",
+            "5六",
+            "6六",
+            "4八",
+            "6八"
+          ],
+          "movable_squares": [
+            "4六",
+            "6六",
+            "4八"
+          ],
+          "activity": 251
+        },
+        "adjacent": {
+          "左上": "4六",
+          "上": "5六",
+          "右上": "6六",
+          "左": "4七",
+          "右": "6七",
+          "左下": "4八",
+          "下": "5八",
+          "右下": "6八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          }
+        ]
+      },
+      "5八": {
+        "square": "5八",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": "4七",
+          "上": "5七",
+          "右上": "6七",
+          "左": "4八",
+          "右": "6八",
+          "左下": "4九",
+          "下": "5九",
+          "右下": "6九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          }
+        ]
+      },
+      "5九": {
+        "square": "5九",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "金",
+          "color": "先手",
+          "square": "5九",
+          "attack_squares": [
+            "4八",
+            "5八",
+            "6八",
+            "4九",
+            "6九"
+          ],
+          "movable_squares": [
+            "4八",
+            "5八",
+            "4九",
+            "6九"
+          ],
+          "activity": 189
+        },
+        "adjacent": {
+          "左上": "4八",
+          "上": "5八",
+          "右上": "6八",
+          "左": "4九",
+          "右": "6九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          }
+        ]
+      },
+      "6一": {
+        "square": "6一",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "金",
+          "color": "後手",
+          "square": "6一",
+          "attack_squares": [
+            "5二",
+            "6二",
+            "7二",
+            "5一",
+            "7一"
+          ],
+          "movable_squares": [
+            "6二",
+            "5一",
+            "7一"
+          ],
+          "activity": 280
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "5一",
+          "右": "7一",
+          "左下": "5二",
+          "下": "6二",
+          "右下": "7二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          }
+        ]
+      },
+      "6二": {
+        "square": "6二",
+        "attack_balance": -3,
+        "adjacent": {
+          "左上": "5一",
+          "上": "6一",
+          "右上": "7一",
+          "左": "5二",
+          "右": "7二",
+          "左下": "5三",
+          "下": "6三",
+          "右下": "7三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "5二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "4二"
+          }
+        ]
+      },
+      "6三": {
+        "square": "6三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "6三",
+          "attack_squares": [
+            "6四"
+          ],
+          "movable_squares": [
+            "6四"
+          ],
+          "activity": 135
+        },
+        "adjacent": {
+          "左上": "5二",
+          "上": "6二",
+          "右上": "7二",
+          "左": "5三",
+          "右": "7三",
+          "左下": "5四",
+          "下": "6四",
+          "右下": "7四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "5二"
+          },
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          }
+        ]
+      },
+      "6四": {
+        "square": "6四",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "5三",
+          "上": "6三",
+          "右上": "7三",
+          "左": "5四",
+          "右": "7四",
+          "左下": "5五",
+          "下": "6五",
+          "右下": "7五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "6三"
+          }
+        ]
+      },
+      "6五": {
+        "square": "6五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "5四",
+          "上": "6四",
+          "右上": "7四",
+          "左": "5五",
+          "右": "7五",
+          "左下": "5六",
+          "下": "6六",
+          "右下": "7六"
+        }
+      },
+      "6六": {
+        "square": "6六",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "5五",
+          "上": "6五",
+          "右上": "7五",
+          "左": "5六",
+          "右": "7六",
+          "左下": "5七",
+          "下": "6七",
+          "右下": "7七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "5七"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "6七"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "6七": {
+        "square": "6七",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "6七",
+          "attack_squares": [
+            "6六"
+          ],
+          "movable_squares": [
+            "6六"
+          ],
+          "activity": 148
+        },
+        "adjacent": {
+          "左上": "5六",
+          "上": "6六",
+          "右上": "7六",
+          "左": "5七",
+          "右": "7七",
+          "左下": "5八",
+          "下": "6八",
+          "右下": "7八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          }
+        ]
+      },
+      "6八": {
+        "square": "6八",
+        "attack_balance": 5,
+        "piece": {
+          "piece_type": "銀",
+          "color": "先手",
+          "square": "6八",
+          "attack_squares": [
+            "5七",
+            "6七",
+            "7七",
+            "5九",
+            "7九"
+          ],
+          "movable_squares": [
+            "7七"
+          ],
+          "activity": 212
+        },
+        "adjacent": {
+          "左上": "5七",
+          "上": "6七",
+          "右上": "7七",
+          "左": "5八",
+          "右": "7八",
+          "左下": "5九",
+          "下": "6九",
+          "右下": "7九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "2八"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "5七"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "6九": {
+        "square": "6九",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "5八",
+          "上": "6八",
+          "右上": "7八",
+          "左": "5九",
+          "右": "7九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "7一": {
+        "square": "7一",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "6一",
+          "右": "8一",
+          "左下": "6二",
+          "下": "7二",
+          "右下": "8二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "7二": {
+        "square": "7二",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "銀",
+          "color": "後手",
+          "square": "7二",
+          "attack_squares": [
+            "6三",
+            "7三",
+            "8三",
+            "6一",
+            "8一"
+          ],
+          "movable_squares": [],
+          "activity": 276
+        },
+        "adjacent": {
+          "左上": "6一",
+          "上": "7一",
+          "右上": "8一",
+          "左": "6二",
+          "右": "8二",
+          "左下": "6三",
+          "下": "7三",
+          "右下": "8三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "7三": {
+        "square": "7三",
+        "attack_balance": -3,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "7三",
+          "attack_squares": [
+            "7四"
+          ],
+          "movable_squares": [
+            "7四"
+          ],
+          "activity": 334
+        },
+        "adjacent": {
+          "左上": "6二",
+          "上": "7二",
+          "右上": "8二",
+          "左": "6三",
+          "右": "8三",
+          "左下": "6四",
+          "下": "7四",
+          "右下": "8四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          },
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "8一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "7四": {
+        "square": "7四",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "6三",
+          "上": "7三",
+          "右上": "8三",
+          "左": "6四",
+          "右": "8四",
+          "左下": "6五",
+          "下": "7五",
+          "右下": "8五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "7三"
+          }
+        ]
+      },
+      "7五": {
+        "square": "7五",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "6四",
+          "上": "7四",
+          "右上": "8四",
+          "左": "6五",
+          "右": "8五",
+          "左下": "6六",
+          "下": "7六",
+          "右下": "8六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "7六"
+          }
+        ]
+      },
+      "7六": {
+        "square": "7六",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "7六",
+          "attack_squares": [
+            "7五"
+          ],
+          "movable_squares": [
+            "7五"
+          ],
+          "activity": 298
+        },
+        "adjacent": {
+          "左上": "6五",
+          "上": "7五",
+          "右上": "8五",
+          "左": "6六",
+          "右": "8六",
+          "左下": "6七",
+          "下": "7七",
+          "右下": "8七"
+        }
+      },
+      "7七": {
+        "square": "7七",
+        "attack_balance": 4,
+        "adjacent": {
+          "左上": "6六",
+          "上": "7六",
+          "右上": "8六",
+          "左": "6七",
+          "右": "8七",
+          "左下": "6八",
+          "下": "7八",
+          "右下": "8八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          },
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "8九"
+          }
+        ]
+      },
+      "7八": {
+        "square": "7八",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "玉",
+          "color": "先手",
+          "square": "7八",
+          "attack_squares": [
+            "6七",
+            "6八",
+            "6九",
+            "7七",
+            "7九",
+            "8七",
+            "8八",
+            "8九"
+          ],
+          "movable_squares": [
+            "6九",
+            "7七"
+          ],
+          "activity": 0
+        },
+        "adjacent": {
+          "左上": "6七",
+          "上": "7七",
+          "右上": "8七",
+          "左": "6八",
+          "右": "8八",
+          "左下": "6九",
+          "下": "7九",
+          "右下": "8九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "7九": {
+        "square": "7九",
+        "attack_balance": 3,
+        "piece": {
+          "piece_type": "金",
+          "color": "先手",
+          "square": "7九",
+          "attack_squares": [
+            "6八",
+            "7八",
+            "8八",
+            "6九",
+            "8九"
+          ],
+          "movable_squares": [
+            "6九"
+          ],
+          "activity": 253
+        },
+        "adjacent": {
+          "左上": "6八",
+          "上": "7八",
+          "右上": "8八",
+          "左": "6九",
+          "右": "8九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "8一": {
+        "square": "8一",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "桂",
+          "color": "後手",
+          "square": "8一",
+          "attack_squares": [
+            "7三",
+            "9三"
+          ],
+          "movable_squares": [
+            "9三"
+          ],
+          "activity": 214
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "7一",
+          "右": "9一",
+          "左下": "7二",
+          "下": "8二",
+          "右下": "9二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "8二": {
+        "square": "8二",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "玉",
+          "color": "後手",
+          "square": "8二",
+          "attack_squares": [
+            "7一",
+            "7二",
+            "7三",
+            "8一",
+            "8三",
+            "9一",
+            "9二",
+            "9三"
+          ],
+          "movable_squares": [
+            "7一",
+            "9二",
+            "9三"
+          ],
+          "activity": 0
+        },
+        "adjacent": {
+          "左上": "7一",
+          "上": "8一",
+          "右上": "9一",
+          "左": "7二",
+          "右": "9二",
+          "左下": "7三",
+          "下": "8三",
+          "右下": "9三"
+        }
+      },
+      "8三": {
+        "square": "8三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "8三",
+          "attack_squares": [
+            "8四"
+          ],
+          "movable_squares": [
+            "8四"
+          ],
+          "activity": 158
+        },
+        "adjacent": {
+          "左上": "7二",
+          "上": "8二",
+          "右上": "9二",
+          "左": "7三",
+          "右": "9三",
+          "左下": "7四",
+          "下": "8四",
+          "右下": "9四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "8四": {
+        "square": "8四",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "7三",
+          "上": "8三",
+          "右上": "9三",
+          "左": "7四",
+          "右": "9四",
+          "左下": "7五",
+          "下": "8五",
+          "右下": "9五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "8三"
+          }
+        ]
+      },
+      "8五": {
+        "square": "8五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "7四",
+          "上": "8四",
+          "右上": "9四",
+          "左": "7五",
+          "右": "9五",
+          "左下": "7六",
+          "下": "8六",
+          "右下": "9六"
+        }
+      },
+      "8六": {
+        "square": "8六",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "7五",
+          "上": "8五",
+          "右上": "9五",
+          "左": "7六",
+          "右": "9六",
+          "左下": "7七",
+          "下": "8七",
+          "右下": "9七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "8七"
+          }
+        ]
+      },
+      "8七": {
+        "square": "8七",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "8七",
+          "attack_squares": [
+            "8六"
+          ],
+          "movable_squares": [
+            "8六"
+          ],
+          "activity": 200
+        },
+        "adjacent": {
+          "左上": "7六",
+          "上": "8六",
+          "右上": "9六",
+          "左": "7七",
+          "右": "9七",
+          "左下": "7八",
+          "下": "8八",
+          "右下": "9八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          }
+        ]
+      },
+      "8八": {
+        "square": "8八",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "角",
+          "color": "先手",
+          "square": "8八",
+          "attack_squares": [
+            "7七",
+            "6六",
+            "5五",
+            "4四",
+            "7九",
+            "9七",
+            "9九"
+          ],
+          "movable_squares": [
+            "7七",
+            "6六",
+            "5五",
+            "4四",
+            "9七"
+          ],
+          "activity": 719
+        },
+        "adjacent": {
+          "左上": "7七",
+          "上": "8七",
+          "右上": "9七",
+          "左": "7八",
+          "右": "9八",
+          "左下": "7九",
+          "下": "8九",
+          "右下": "9九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "8九": {
+        "square": "8九",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "桂",
+          "color": "先手",
+          "square": "8九",
+          "attack_squares": [
+            "7七",
+            "9七"
+          ],
+          "movable_squares": [
+            "7七",
+            "9七"
+          ],
+          "activity": 280
+        },
+        "adjacent": {
+          "左上": "7八",
+          "上": "8八",
+          "右上": "9八",
+          "左": "7九",
+          "右": "9九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "9一": {
+        "square": "9一",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "香",
+          "color": "後手",
+          "square": "9一",
+          "attack_squares": [
+            "9二",
+            "9三",
+            "9四"
+          ],
+          "movable_squares": [
+            "9二",
+            "9三"
+          ],
+          "activity": 587
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "8一",
+          "右": null,
+          "左下": "8二",
+          "下": "9二",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "9二": {
+        "square": "9二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "8一",
+          "上": "9一",
+          "右上": null,
+          "左": "8二",
+          "右": null,
+          "左下": "8三",
+          "下": "9三",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          },
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          }
+        ]
+      },
+      "9三": {
+        "square": "9三",
+        "attack_balance": -3,
+        "adjacent": {
+          "左上": "8二",
+          "上": "9二",
+          "右上": null,
+          "左": "8三",
+          "右": null,
+          "左下": "8四",
+          "下": "9四",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "8一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          },
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          }
+        ]
+      },
+      "9四": {
+        "square": "9四",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "9四",
+          "attack_squares": [
+            "9五"
+          ],
+          "movable_squares": [
+            "9五"
+          ],
+          "activity": 310
+        },
+        "adjacent": {
+          "左上": "8三",
+          "上": "9三",
+          "右上": null,
+          "左": "8四",
+          "右": null,
+          "左下": "8五",
+          "下": "9五",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          }
+        ]
+      },
+      "9五": {
+        "square": "9五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "8四",
+          "上": "9四",
+          "右上": null,
+          "左": "8五",
+          "右": null,
+          "左下": "8六",
+          "下": "9六",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "9四"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "9六"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          },
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9六": {
+        "square": "9六",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "9六",
+          "attack_squares": [
+            "9五"
+          ],
+          "movable_squares": [
+            "9五"
+          ],
+          "activity": 140
+        },
+        "adjacent": {
+          "左上": "8五",
+          "上": "9五",
+          "右上": null,
+          "左": "8六",
+          "右": null,
+          "左下": "8七",
+          "下": "9七",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9七": {
+        "square": "9七",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "8六",
+          "上": "9六",
+          "右上": null,
+          "左": "8七",
+          "右": null,
+          "左下": "8八",
+          "下": "9八",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          },
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "8九"
+          },
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9八": {
+        "square": "9八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "8七",
+          "上": "9七",
+          "右上": null,
+          "左": "8八",
+          "右": null,
+          "左下": "8九",
+          "下": "9九",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9九": {
+        "square": "9九",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "香",
+          "color": "先手",
+          "square": "9九",
+          "attack_squares": [
+            "9八",
+            "9七",
+            "9六"
+          ],
+          "movable_squares": [
+            "9八",
+            "9七"
+          ],
+          "activity": 374
+        },
+        "adjacent": {
+          "左上": "8八",
+          "上": "9八",
+          "右上": null,
+          "左": "8九",
+          "右": null,
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      }
+    }
+  },
+  "after": {
+    "sfen": "ln1g4l/1ks3rb1/1pp1pgnpp/p2p1pR2/7P1/P1P1PS3/1P1P1P2P/1BKS5/LNG1G2NL b S2p 13",
+    "dlshogi_score": 3960,
+    "sente_activity_total": 5269,
+    "gote_activity_total": 2712,
+    "material": {
+      "sente_score": 6700,
+      "gote_score": 5900,
+      "advantage": 800,
+      "description": "先手の銀得",
+      "sente_hand": {
+        "歩": 0,
+        "香": 0,
+        "桂": 0,
+        "銀": 1,
+        "金": 0,
+        "角": 0,
+        "飛": 0
+      },
+      "gote_hand": {
+        "歩": 2,
+        "香": 0,
+        "桂": 0,
+        "銀": 0,
+        "金": 0,
+        "角": 0,
+        "飛": 0
+      }
+    },
+    "king_safety": [
+      {
+        "color": "先手",
+        "king_square": "7八",
+        "gold_count": 5,
+        "density": 0.58,
+        "safety_score": 78
+      },
+      {
+        "color": "後手",
+        "king_square": "8二",
+        "gold_count": 3,
+        "density": 0.53,
+        "safety_score": 56
+      }
+    ],
+    "castles": [
+      {
+        "name": "木村美濃",
+        "color": "後手",
+        "confidence": 0.72
+      },
+      {
+        "name": "片美濃囲い",
+        "color": "後手",
+        "confidence": 1.0
+      },
+      {
+        "name": "エルモ囲い",
+        "color": "先手",
+        "confidence": 0.9
+      },
+      {
+        "name": "右矢倉",
+        "color": "後手",
+        "confidence": 0.8
+      }
+    ],
+    "strategies": [
+      {
+        "name": "パックマン戦法",
+        "color": "先手",
+        "confidence": 0.9
+      },
+      {
+        "name": "パックマン戦法",
+        "color": "後手",
+        "confidence": 0.7
+      },
+      {
+        "name": "新米長玉",
+        "color": "先手",
+        "confidence": 0.8
+      },
+      {
+        "name": "新米長玉",
+        "color": "後手",
+        "confidence": 0.7
+      },
+      {
+        "name": "嬉野流",
+        "color": "先手",
+        "confidence": 0.76
+      },
+      {
+        "name": "三間飛車",
+        "color": "後手",
+        "confidence": 0.9
+      },
+      {
+        "name": "早石田",
+        "color": "後手",
+        "confidence": 0.7
+      },
+      {
+        "name": "鬼殺し",
+        "color": "後手",
+        "confidence": 0.9
+      }
+    ],
+    "hand_pieces": [
+      {
+        "color": "先手",
+        "pieces": {
+          "歩": 0,
+          "香": 0,
+          "桂": 0,
+          "銀": 1,
+          "金": 0,
+          "角": 0,
+          "飛": 0
+        }
+      },
+      {
+        "color": "後手",
+        "pieces": {
+          "歩": 2,
+          "香": 0,
+          "桂": 0,
+          "銀": 0,
+          "金": 0,
+          "角": 0,
+          "飛": 0
+        }
+      }
+    ],
+    "squares": {
+      "1一": {
+        "square": "1一",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "香",
+          "color": "後手",
+          "square": "1一",
+          "attack_squares": [
+            "1二",
+            "1三"
+          ],
+          "movable_squares": [
+            "1二"
+          ],
+          "activity": -4
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": null,
+          "右": "2一",
+          "左下": null,
+          "下": "1二",
+          "右下": "2二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "2二"
+          }
+        ]
+      },
+      "1二": {
+        "square": "1二",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": null,
+          "上": "1一",
+          "右上": "2一",
+          "左": null,
+          "右": "2二",
+          "左下": null,
+          "下": "1三",
+          "右下": "2三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "1一"
+          }
+        ]
+      },
+      "1三": {
+        "square": "1三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "1三",
+          "attack_squares": [
+            "1四"
+          ],
+          "movable_squares": [
+            "1四"
+          ],
+          "activity": -243
+        },
+        "adjacent": {
+          "左上": null,
+          "上": "1二",
+          "右上": "2二",
+          "左": null,
+          "右": "2三",
+          "左下": null,
+          "下": "1四",
+          "右下": "2四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "1一"
+          },
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "2二"
+          }
+        ]
+      },
+      "1四": {
+        "square": "1四",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": null,
+          "上": "1三",
+          "右上": "2三",
+          "左": null,
+          "右": "2四",
+          "左下": null,
+          "下": "1五",
+          "右下": "2五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "1三"
+          },
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "1一"
+          }
+        ]
+      },
+      "1五": {
+        "square": "1五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": null,
+          "上": "1四",
+          "右上": "2四",
+          "左": null,
+          "右": "2五",
+          "左下": null,
+          "下": "1六",
+          "右下": "2六"
+        }
+      },
+      "1六": {
+        "square": "1六",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": null,
+          "上": "1五",
+          "右上": "2五",
+          "左": null,
+          "右": "2六",
+          "左下": null,
+          "下": "1七",
+          "右下": "2七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "1七"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "1九"
+          }
+        ]
+      },
+      "1七": {
+        "square": "1七",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "1七",
+          "attack_squares": [
+            "1六"
+          ],
+          "movable_squares": [
+            "1六"
+          ],
+          "activity": -51
+        },
+        "adjacent": {
+          "左上": null,
+          "上": "1六",
+          "右上": "2六",
+          "左": null,
+          "右": "2七",
+          "左下": null,
+          "下": "1八",
+          "右下": "2八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "1九"
+          },
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "2九"
+          }
+        ]
+      },
+      "1八": {
+        "square": "1八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": null,
+          "上": "1七",
+          "右上": "2七",
+          "左": null,
+          "右": "2八",
+          "左下": null,
+          "下": "1九",
+          "右下": "2九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "1九"
+          }
+        ]
+      },
+      "1九": {
+        "square": "1九",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "香",
+          "color": "先手",
+          "square": "1九",
+          "attack_squares": [
+            "1八",
+            "1七"
+          ],
+          "movable_squares": [
+            "1八"
+          ],
+          "activity": 6
+        },
+        "adjacent": {
+          "左上": null,
+          "上": "1八",
+          "右上": "2八",
+          "左": null,
+          "右": "2九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        }
+      },
+      "2一": {
+        "square": "2一",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "1一",
+          "右": "3一",
+          "左下": "1二",
+          "下": "2二",
+          "右下": "3二"
+        }
+      },
+      "2二": {
+        "square": "2二",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "角",
+          "color": "後手",
+          "square": "2二",
+          "attack_squares": [
+            "1一",
+            "1三",
+            "3一",
+            "3三"
+          ],
+          "movable_squares": [
+            "3一"
+          ],
+          "activity": 188
+        },
+        "adjacent": {
+          "左上": "1一",
+          "上": "2一",
+          "右上": "3一",
+          "左": "1二",
+          "右": "3二",
+          "左下": "1三",
+          "下": "2三",
+          "右下": "3三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          }
+        ]
+      },
+      "2三": {
+        "square": "2三",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "2三",
+          "attack_squares": [
+            "2四"
+          ],
+          "movable_squares": [
+            "2四"
+          ],
+          "activity": 149
+        },
+        "adjacent": {
+          "左上": "1二",
+          "上": "2二",
+          "右上": "3二",
+          "左": "1三",
+          "右": "3三",
+          "左下": "1四",
+          "下": "2四",
+          "右下": "3四"
+        }
+      },
+      "2四": {
+        "square": "2四",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "1三",
+          "上": "2三",
+          "右上": "3三",
+          "左": "1四",
+          "右": "3四",
+          "左下": "1五",
+          "下": "2五",
+          "右下": "3五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "2三"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "2五"
+          },
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          }
+        ]
+      },
+      "2五": {
+        "square": "2五",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "2五",
+          "attack_squares": [
+            "2四"
+          ],
+          "movable_squares": [
+            "2四"
+          ],
+          "activity": -71
+        },
+        "adjacent": {
+          "左上": "1四",
+          "上": "2四",
+          "右上": "3四",
+          "左": "1五",
+          "右": "3五",
+          "左下": "1六",
+          "下": "2六",
+          "右下": "3六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "3三"
+          }
+        ]
+      },
+      "2六": {
+        "square": "2六",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "1五",
+          "上": "2五",
+          "右上": "3五",
+          "左": "1六",
+          "右": "3六",
+          "左下": "1七",
+          "下": "2七",
+          "右下": "3七"
+        }
+      },
+      "2七": {
+        "square": "2七",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "1六",
+          "上": "2六",
+          "右上": "3六",
+          "左": "1七",
+          "右": "3七",
+          "左下": "1八",
+          "下": "2八",
+          "右下": "3八"
+        }
+      },
+      "2八": {
+        "square": "2八",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "1七",
+          "上": "2七",
+          "右上": "3七",
+          "左": "1八",
+          "右": "3八",
+          "左下": "1九",
+          "下": "2九",
+          "右下": "3九"
+        }
+      },
+      "2九": {
+        "square": "2九",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "桂",
+          "color": "先手",
+          "square": "2九",
+          "attack_squares": [
+            "1七",
+            "3七"
+          ],
+          "movable_squares": [
+            "3七"
+          ],
+          "activity": 131
+        },
+        "adjacent": {
+          "左上": "1八",
+          "上": "2八",
+          "右上": "3八",
+          "左": "1九",
+          "右": "3九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        }
+      },
+      "3一": {
+        "square": "3一",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "2一",
+          "右": "4一",
+          "左下": "2二",
+          "下": "3二",
+          "右下": "4二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "2二"
+          },
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          }
+        ]
+      },
+      "3二": {
+        "square": "3二",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "飛",
+          "color": "後手",
+          "square": "3二",
+          "attack_squares": [
+            "2二",
+            "4二",
+            "5二",
+            "6二",
+            "7二",
+            "3一",
+            "3三"
+          ],
+          "movable_squares": [
+            "4二",
+            "5二",
+            "6二",
+            "3一"
+          ],
+          "activity": 422
+        },
+        "adjacent": {
+          "左上": "2一",
+          "上": "3一",
+          "右上": "4一",
+          "左": "2二",
+          "右": "4二",
+          "左下": "2三",
+          "下": "3三",
+          "右下": "4三"
+        }
+      },
+      "3三": {
+        "square": "3三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "桂",
+          "color": "後手",
+          "square": "3三",
+          "attack_squares": [
+            "2五",
+            "4五"
+          ],
+          "movable_squares": [
+            "2五",
+            "4五"
+          ],
+          "activity": 180
+        },
+        "adjacent": {
+          "左上": "2二",
+          "上": "3二",
+          "右上": "4二",
+          "左": "2三",
+          "右": "4三",
+          "左下": "2四",
+          "下": "3四",
+          "右下": "4四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "後手",
+            "square": "2二"
+          },
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          },
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "4三"
+          }
+        ]
+      },
+      "3四": {
+        "square": "3四",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "飛",
+          "color": "先手",
+          "square": "3四",
+          "attack_squares": [
+            "2四",
+            "1四",
+            "4四",
+            "3三",
+            "3五",
+            "3六",
+            "3七",
+            "3八",
+            "3九"
+          ],
+          "movable_squares": [
+            "2四",
+            "1四",
+            "4四",
+            "3三",
+            "3五",
+            "3六",
+            "3七",
+            "3八",
+            "3九"
+          ],
+          "activity": 1882
+        },
+        "adjacent": {
+          "左上": "2三",
+          "上": "3三",
+          "右上": "4三",
+          "左": "2四",
+          "右": "4四",
+          "左下": "2五",
+          "下": "3五",
+          "右下": "4五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "4三"
+          }
+        ]
+      },
+      "3五": {
+        "square": "3五",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": "2四",
+          "上": "3四",
+          "右上": "4四",
+          "左": "2五",
+          "右": "4五",
+          "左下": "2六",
+          "下": "3六",
+          "右下": "4六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "4六"
+          }
+        ]
+      },
+      "3六": {
+        "square": "3六",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "2五",
+          "上": "3五",
+          "右上": "4五",
+          "左": "2六",
+          "右": "4六",
+          "左下": "2七",
+          "下": "3七",
+          "右下": "4七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          }
+        ]
+      },
+      "3七": {
+        "square": "3七",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "2六",
+          "上": "3六",
+          "右上": "4六",
+          "左": "2七",
+          "右": "4七",
+          "左下": "2八",
+          "下": "3八",
+          "右下": "4八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "2九"
+          },
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "4六"
+          }
+        ]
+      },
+      "3八": {
+        "square": "3八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "2七",
+          "上": "3七",
+          "右上": "4七",
+          "左": "2八",
+          "右": "4八",
+          "左下": "2九",
+          "下": "3九",
+          "右下": "4九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          }
+        ]
+      },
+      "3九": {
+        "square": "3九",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "2八",
+          "上": "3八",
+          "右上": "4八",
+          "左": "2九",
+          "右": "4九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          }
+        ]
+      },
+      "4一": {
+        "square": "4一",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "3一",
+          "右": "5一",
+          "左下": "3二",
+          "下": "4二",
+          "右下": "5二"
+        }
+      },
+      "4二": {
+        "square": "4二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "3一",
+          "上": "4一",
+          "右上": "5一",
+          "左": "3二",
+          "右": "5二",
+          "左下": "3三",
+          "下": "4三",
+          "右下": "5三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "4三"
+          }
+        ]
+      },
+      "4三": {
+        "square": "4三",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "金",
+          "color": "後手",
+          "square": "4三",
+          "attack_squares": [
+            "3四",
+            "4四",
+            "5四",
+            "3三",
+            "5三",
+            "4二"
+          ],
+          "movable_squares": [
+            "3四",
+            "5四",
+            "4二"
+          ],
+          "activity": 202
+        },
+        "adjacent": {
+          "左上": "3二",
+          "上": "4二",
+          "右上": "5二",
+          "左": "3三",
+          "右": "5三",
+          "左下": "3四",
+          "下": "4四",
+          "右下": "5四"
+        }
+      },
+      "4四": {
+        "square": "4四",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "4四",
+          "attack_squares": [
+            "4五"
+          ],
+          "movable_squares": [
+            "4五"
+          ],
+          "activity": -81
+        },
+        "adjacent": {
+          "左上": "3三",
+          "上": "4三",
+          "右上": "5三",
+          "左": "3四",
+          "右": "5四",
+          "左下": "3五",
+          "下": "4五",
+          "右下": "5五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "先手",
+            "square": "3四"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "4三"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "4五": {
+        "square": "4五",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "3四",
+          "上": "4四",
+          "右上": "5四",
+          "左": "3五",
+          "右": "5五",
+          "左下": "3六",
+          "下": "4六",
+          "右下": "5六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "3三"
+          },
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "4四"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "4六"
+          }
+        ]
+      },
+      "4六": {
+        "square": "4六",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "銀",
+          "color": "先手",
+          "square": "4六",
+          "attack_squares": [
+            "3五",
+            "4五",
+            "5五",
+            "3七",
+            "5七"
+          ],
+          "movable_squares": [
+            "3五",
+            "4五",
+            "5五",
+            "3七",
+            "5七"
+          ],
+          "activity": 280
+        },
+        "adjacent": {
+          "左上": "3五",
+          "上": "4五",
+          "右上": "5五",
+          "左": "3六",
+          "右": "5六",
+          "左下": "3七",
+          "下": "4七",
+          "右下": "5七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "4七"
+          }
+        ]
+      },
+      "4七": {
+        "square": "4七",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "4七",
+          "attack_squares": [
+            "4六"
+          ],
+          "movable_squares": [],
+          "activity": 75
+        },
+        "adjacent": {
+          "左上": "3六",
+          "上": "4六",
+          "右上": "5六",
+          "左": "3七",
+          "右": "5七",
+          "左下": "3八",
+          "下": "4八",
+          "右下": "5八"
+        }
+      },
+      "4八": {
+        "square": "4八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "3七",
+          "上": "4七",
+          "右上": "5七",
+          "左": "3八",
+          "右": "5八",
+          "左下": "3九",
+          "下": "4九",
+          "右下": "5九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          }
+        ]
+      },
+      "4九": {
+        "square": "4九",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "3八",
+          "上": "4八",
+          "右上": "5八",
+          "左": "3九",
+          "右": "5九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          }
+        ]
+      },
+      "5一": {
+        "square": "5一",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "4一",
+          "右": "6一",
+          "左下": "4二",
+          "下": "5二",
+          "右下": "6二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          }
+        ]
+      },
+      "5二": {
+        "square": "5二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "4一",
+          "上": "5一",
+          "右上": "6一",
+          "左": "4二",
+          "右": "6二",
+          "左下": "4三",
+          "下": "5三",
+          "右下": "6三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          }
+        ]
+      },
+      "5三": {
+        "square": "5三",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "5三",
+          "attack_squares": [
+            "5四"
+          ],
+          "movable_squares": [
+            "5四"
+          ],
+          "activity": -26
+        },
+        "adjacent": {
+          "左上": "4二",
+          "上": "5二",
+          "右上": "6二",
+          "左": "4三",
+          "右": "6三",
+          "左下": "4四",
+          "下": "5四",
+          "右下": "6四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "4三"
+          }
+        ]
+      },
+      "5四": {
+        "square": "5四",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "4三",
+          "上": "5三",
+          "右上": "6三",
+          "左": "4四",
+          "右": "6四",
+          "左下": "4五",
+          "下": "5五",
+          "右下": "6五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "4三"
+          },
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "5三"
+          }
+        ]
+      },
+      "5五": {
+        "square": "5五",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "4四",
+          "上": "5四",
+          "右上": "6四",
+          "左": "4五",
+          "右": "6五",
+          "左下": "4六",
+          "下": "5六",
+          "右下": "6六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "4六"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "5六"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "5六": {
+        "square": "5六",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "5六",
+          "attack_squares": [
+            "5五"
+          ],
+          "movable_squares": [
+            "5五"
+          ],
+          "activity": 19
+        },
+        "adjacent": {
+          "左上": "4五",
+          "上": "5五",
+          "右上": "6五",
+          "左": "4六",
+          "右": "6六",
+          "左下": "4七",
+          "下": "5七",
+          "右下": "6七"
+        }
+      },
+      "5七": {
+        "square": "5七",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": "4六",
+          "上": "5六",
+          "右上": "6六",
+          "左": "4七",
+          "右": "6七",
+          "左下": "4八",
+          "下": "5八",
+          "右下": "6八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "4六"
+          },
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          }
+        ]
+      },
+      "5八": {
+        "square": "5八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "4七",
+          "上": "5七",
+          "右上": "6七",
+          "左": "4八",
+          "右": "6八",
+          "左下": "4九",
+          "下": "5九",
+          "右下": "6九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          }
+        ]
+      },
+      "5九": {
+        "square": "5九",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "金",
+          "color": "先手",
+          "square": "5九",
+          "attack_squares": [
+            "4八",
+            "5八",
+            "6八",
+            "4九",
+            "6九"
+          ],
+          "movable_squares": [
+            "4八",
+            "5八",
+            "4九",
+            "6九"
+          ],
+          "activity": 236
+        },
+        "adjacent": {
+          "左上": "4八",
+          "上": "5八",
+          "右上": "6八",
+          "左": "4九",
+          "右": "6九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          }
+        ]
+      },
+      "6一": {
+        "square": "6一",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "金",
+          "color": "後手",
+          "square": "6一",
+          "attack_squares": [
+            "5二",
+            "6二",
+            "7二",
+            "5一",
+            "7一"
+          ],
+          "movable_squares": [
+            "5二",
+            "6二",
+            "5一",
+            "7一"
+          ],
+          "activity": 271
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "5一",
+          "右": "7一",
+          "左下": "5二",
+          "下": "6二",
+          "右下": "7二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          }
+        ]
+      },
+      "6二": {
+        "square": "6二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "5一",
+          "上": "6一",
+          "右上": "7一",
+          "左": "5二",
+          "右": "7二",
+          "左下": "5三",
+          "下": "6三",
+          "右下": "7三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          }
+        ]
+      },
+      "6三": {
+        "square": "6三",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "5二",
+          "上": "6二",
+          "右上": "7二",
+          "左": "5三",
+          "右": "7三",
+          "左下": "5四",
+          "下": "6四",
+          "右下": "7四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          }
+        ]
+      },
+      "6四": {
+        "square": "6四",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "6四",
+          "attack_squares": [
+            "6五"
+          ],
+          "movable_squares": [
+            "6五"
+          ],
+          "activity": 42
+        },
+        "adjacent": {
+          "左上": "5三",
+          "上": "6三",
+          "右上": "7三",
+          "左": "5四",
+          "右": "7四",
+          "左下": "5五",
+          "下": "6五",
+          "右下": "7五"
+        }
+      },
+      "6五": {
+        "square": "6五",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "5四",
+          "上": "6四",
+          "右上": "7四",
+          "左": "5五",
+          "右": "7五",
+          "左下": "5六",
+          "下": "6六",
+          "右下": "7六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "6四"
+          }
+        ]
+      },
+      "6六": {
+        "square": "6六",
+        "attack_balance": 2,
+        "adjacent": {
+          "左上": "5五",
+          "上": "6五",
+          "右上": "7五",
+          "左": "5六",
+          "右": "7六",
+          "左下": "5七",
+          "下": "6七",
+          "右下": "7七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "6七"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "6七": {
+        "square": "6七",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "6七",
+          "attack_squares": [
+            "6六"
+          ],
+          "movable_squares": [
+            "6六"
+          ],
+          "activity": 229
+        },
+        "adjacent": {
+          "左上": "5六",
+          "上": "6六",
+          "右上": "7六",
+          "左": "5七",
+          "右": "7七",
+          "左下": "5八",
+          "下": "6八",
+          "右下": "7八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          }
+        ]
+      },
+      "6八": {
+        "square": "6八",
+        "attack_balance": 3,
+        "piece": {
+          "piece_type": "銀",
+          "color": "先手",
+          "square": "6八",
+          "attack_squares": [
+            "5七",
+            "6七",
+            "7七",
+            "5九",
+            "7九"
+          ],
+          "movable_squares": [
+            "5七",
+            "7七"
+          ],
+          "activity": 236
+        },
+        "adjacent": {
+          "左上": "5七",
+          "上": "6七",
+          "右上": "7七",
+          "左": "5八",
+          "右": "7八",
+          "左下": "5九",
+          "下": "6九",
+          "右下": "7九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "6九": {
+        "square": "6九",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "5八",
+          "上": "6八",
+          "右上": "7八",
+          "左": "5九",
+          "右": "7九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "5九"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "7一": {
+        "square": "7一",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "6一",
+          "右": "8一",
+          "左下": "6二",
+          "下": "7二",
+          "右下": "8二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "7二": {
+        "square": "7二",
+        "attack_balance": -3,
+        "piece": {
+          "piece_type": "銀",
+          "color": "後手",
+          "square": "7二",
+          "attack_squares": [
+            "6三",
+            "7三",
+            "8三",
+            "6一",
+            "8一"
+          ],
+          "movable_squares": [
+            "6三"
+          ],
+          "activity": 287
+        },
+        "adjacent": {
+          "左上": "6一",
+          "上": "7一",
+          "右上": "8一",
+          "左": "6二",
+          "右": "8二",
+          "左下": "6三",
+          "下": "7三",
+          "右下": "8三"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "飛",
+            "color": "後手",
+            "square": "3二"
+          },
+          {
+            "piece_type": "金",
+            "color": "後手",
+            "square": "6一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "7三": {
+        "square": "7三",
+        "attack_balance": -3,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "7三",
+          "attack_squares": [
+            "7四"
+          ],
+          "movable_squares": [
+            "7四"
+          ],
+          "activity": 373
+        },
+        "adjacent": {
+          "左上": "6二",
+          "上": "7二",
+          "右上": "8二",
+          "左": "6三",
+          "右": "8三",
+          "左下": "6四",
+          "下": "7四",
+          "右下": "8四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          },
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "8一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "7四": {
+        "square": "7四",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "6三",
+          "上": "7三",
+          "右上": "8三",
+          "左": "6四",
+          "右": "8四",
+          "左下": "6五",
+          "下": "7五",
+          "右下": "8五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "7三"
+          }
+        ]
+      },
+      "7五": {
+        "square": "7五",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "6四",
+          "上": "7四",
+          "右上": "8四",
+          "左": "6五",
+          "右": "8五",
+          "左下": "6六",
+          "下": "7六",
+          "右下": "8六"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "7六"
+          }
+        ]
+      },
+      "7六": {
+        "square": "7六",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "7六",
+          "attack_squares": [
+            "7五"
+          ],
+          "movable_squares": [
+            "7五"
+          ],
+          "activity": 407
+        },
+        "adjacent": {
+          "左上": "6五",
+          "上": "7五",
+          "右上": "8五",
+          "左": "6六",
+          "右": "8六",
+          "左下": "6七",
+          "下": "7七",
+          "右下": "8七"
+        }
+      },
+      "7七": {
+        "square": "7七",
+        "attack_balance": 4,
+        "adjacent": {
+          "左上": "6六",
+          "上": "7六",
+          "右上": "8六",
+          "左": "6七",
+          "右": "8七",
+          "左下": "6八",
+          "下": "7八",
+          "右下": "8八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          },
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "8九"
+          }
+        ]
+      },
+      "7八": {
+        "square": "7八",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "玉",
+          "color": "先手",
+          "square": "7八",
+          "attack_squares": [
+            "6七",
+            "6八",
+            "6九",
+            "7七",
+            "7九",
+            "8七",
+            "8八",
+            "8九"
+          ],
+          "movable_squares": [
+            "6九",
+            "7七"
+          ],
+          "activity": 0
+        },
+        "adjacent": {
+          "左上": "6七",
+          "上": "7七",
+          "右上": "8七",
+          "左": "6八",
+          "右": "8八",
+          "左下": "6九",
+          "下": "7九",
+          "右下": "8九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "7九": {
+        "square": "7九",
+        "attack_balance": 3,
+        "piece": {
+          "piece_type": "金",
+          "color": "先手",
+          "square": "7九",
+          "attack_squares": [
+            "6八",
+            "7八",
+            "8八",
+            "6九",
+            "8九"
+          ],
+          "movable_squares": [
+            "6九"
+          ],
+          "activity": 255
+        },
+        "adjacent": {
+          "左上": "6八",
+          "上": "7八",
+          "右上": "8八",
+          "左": "6九",
+          "右": "8九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "先手",
+            "square": "6八"
+          },
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      },
+      "8一": {
+        "square": "8一",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "桂",
+          "color": "後手",
+          "square": "8一",
+          "attack_squares": [
+            "7三",
+            "9三"
+          ],
+          "movable_squares": [
+            "9三"
+          ],
+          "activity": 117
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "7一",
+          "右": "9一",
+          "左下": "7二",
+          "下": "8二",
+          "右下": "9二"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "8二": {
+        "square": "8二",
+        "attack_balance": 0,
+        "piece": {
+          "piece_type": "玉",
+          "color": "後手",
+          "square": "8二",
+          "attack_squares": [
+            "7一",
+            "7二",
+            "7三",
+            "8一",
+            "8三",
+            "9一",
+            "9二",
+            "9三"
+          ],
+          "movable_squares": [
+            "7一",
+            "9二",
+            "9三"
+          ],
+          "activity": 0
+        },
+        "adjacent": {
+          "左上": "7一",
+          "上": "8一",
+          "右上": "9一",
+          "左": "7二",
+          "右": "9二",
+          "左下": "7三",
+          "下": "8三",
+          "右下": "9三"
+        }
+      },
+      "8三": {
+        "square": "8三",
+        "attack_balance": -2,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "8三",
+          "attack_squares": [
+            "8四"
+          ],
+          "movable_squares": [
+            "8四"
+          ],
+          "activity": 123
+        },
+        "adjacent": {
+          "左上": "7二",
+          "上": "8二",
+          "右上": "9二",
+          "左": "7三",
+          "右": "9三",
+          "左下": "7四",
+          "下": "8四",
+          "右下": "9四"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "銀",
+            "color": "後手",
+            "square": "7二"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "8四": {
+        "square": "8四",
+        "attack_balance": -1,
+        "adjacent": {
+          "左上": "7三",
+          "上": "8三",
+          "右上": "9三",
+          "左": "7四",
+          "右": "9四",
+          "左下": "7五",
+          "下": "8五",
+          "右下": "9五"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "8三"
+          }
+        ]
+      },
+      "8五": {
+        "square": "8五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "7四",
+          "上": "8四",
+          "右上": "9四",
+          "左": "7五",
+          "右": "9五",
+          "左下": "7六",
+          "下": "8六",
+          "右下": "9六"
+        }
+      },
+      "8六": {
+        "square": "8六",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "7五",
+          "上": "8五",
+          "右上": "9五",
+          "左": "7六",
+          "右": "9六",
+          "左下": "7七",
+          "下": "8七",
+          "右下": "9七"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "8七"
+          }
+        ]
+      },
+      "8七": {
+        "square": "8七",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "8七",
+          "attack_squares": [
+            "8六"
+          ],
+          "movable_squares": [
+            "8六"
+          ],
+          "activity": 301
+        },
+        "adjacent": {
+          "左上": "7六",
+          "上": "8六",
+          "右上": "9六",
+          "左": "7七",
+          "右": "9七",
+          "左下": "7八",
+          "下": "8八",
+          "右下": "9八"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          }
+        ]
+      },
+      "8八": {
+        "square": "8八",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "角",
+          "color": "先手",
+          "square": "8八",
+          "attack_squares": [
+            "7七",
+            "6六",
+            "5五",
+            "4四",
+            "7九",
+            "9七",
+            "9九"
+          ],
+          "movable_squares": [
+            "7七",
+            "6六",
+            "5五",
+            "4四",
+            "9七"
+          ],
+          "activity": 679
+        },
+        "adjacent": {
+          "左上": "7七",
+          "上": "8七",
+          "右上": "9七",
+          "左": "7八",
+          "右": "9八",
+          "左下": "7九",
+          "下": "8九",
+          "右下": "9九"
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "8九": {
+        "square": "8九",
+        "attack_balance": 2,
+        "piece": {
+          "piece_type": "桂",
+          "color": "先手",
+          "square": "8九",
+          "attack_squares": [
+            "7七",
+            "9七"
+          ],
+          "movable_squares": [
+            "7七",
+            "9七"
+          ],
+          "activity": 235
+        },
+        "adjacent": {
+          "左上": "7八",
+          "上": "8八",
+          "右上": "9八",
+          "左": "7九",
+          "右": "9九",
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "先手",
+            "square": "7八"
+          },
+          {
+            "piece_type": "金",
+            "color": "先手",
+            "square": "7九"
+          }
+        ]
+      },
+      "9一": {
+        "square": "9一",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "香",
+          "color": "後手",
+          "square": "9一",
+          "attack_squares": [
+            "9二",
+            "9三",
+            "9四"
+          ],
+          "movable_squares": [
+            "9二",
+            "9三"
+          ],
+          "activity": 519
+        },
+        "adjacent": {
+          "左上": null,
+          "上": null,
+          "右上": null,
+          "左": "8一",
+          "右": null,
+          "左下": "8二",
+          "下": "9二",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          }
+        ]
+      },
+      "9二": {
+        "square": "9二",
+        "attack_balance": -2,
+        "adjacent": {
+          "左上": "8一",
+          "上": "9一",
+          "右上": null,
+          "左": "8二",
+          "右": null,
+          "左下": "8三",
+          "下": "9三",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          },
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          }
+        ]
+      },
+      "9三": {
+        "square": "9三",
+        "attack_balance": -3,
+        "adjacent": {
+          "左上": "8二",
+          "上": "9二",
+          "右上": null,
+          "左": "8三",
+          "右": null,
+          "左下": "8四",
+          "下": "9四",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "桂",
+            "color": "後手",
+            "square": "8一"
+          },
+          {
+            "piece_type": "玉",
+            "color": "後手",
+            "square": "8二"
+          },
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          }
+        ]
+      },
+      "9四": {
+        "square": "9四",
+        "attack_balance": -1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "後手",
+          "square": "9四",
+          "attack_squares": [
+            "9五"
+          ],
+          "movable_squares": [
+            "9五"
+          ],
+          "activity": 193
+        },
+        "adjacent": {
+          "左上": "8三",
+          "上": "9三",
+          "右上": null,
+          "左": "8四",
+          "右": null,
+          "左下": "8五",
+          "下": "9五",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          }
+        ]
+      },
+      "9五": {
+        "square": "9五",
+        "attack_balance": 0,
+        "adjacent": {
+          "左上": "8四",
+          "上": "9四",
+          "右上": null,
+          "左": "8五",
+          "右": null,
+          "左下": "8六",
+          "下": "9六",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "歩",
+            "color": "後手",
+            "square": "9四"
+          },
+          {
+            "piece_type": "歩",
+            "color": "先手",
+            "square": "9六"
+          }
+        ],
+        "indirect_attackers": [
+          {
+            "piece_type": "香",
+            "color": "後手",
+            "square": "9一"
+          },
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9六": {
+        "square": "9六",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "歩",
+          "color": "先手",
+          "square": "9六",
+          "attack_squares": [
+            "9五"
+          ],
+          "movable_squares": [
+            "9五"
+          ],
+          "activity": 84
+        },
+        "adjacent": {
+          "左上": "8五",
+          "上": "9五",
+          "右上": null,
+          "左": "8六",
+          "右": null,
+          "左下": "8七",
+          "下": "9七",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9七": {
+        "square": "9七",
+        "attack_balance": 3,
+        "adjacent": {
+          "左上": "8六",
+          "上": "9六",
+          "右上": null,
+          "左": "8七",
+          "右": null,
+          "左下": "8八",
+          "下": "9八",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          },
+          {
+            "piece_type": "桂",
+            "color": "先手",
+            "square": "8九"
+          },
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9八": {
+        "square": "9八",
+        "attack_balance": 1,
+        "adjacent": {
+          "左上": "8七",
+          "上": "9七",
+          "右上": null,
+          "左": "8八",
+          "右": null,
+          "左下": "8九",
+          "下": "9九",
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "香",
+            "color": "先手",
+            "square": "9九"
+          }
+        ]
+      },
+      "9九": {
+        "square": "9九",
+        "attack_balance": 1,
+        "piece": {
+          "piece_type": "香",
+          "color": "先手",
+          "square": "9九",
+          "attack_squares": [
+            "9八",
+            "9七",
+            "9六"
+          ],
+          "movable_squares": [
+            "9八",
+            "9七"
+          ],
+          "activity": 336
+        },
+        "adjacent": {
+          "左上": "8八",
+          "上": "9八",
+          "右上": null,
+          "左": "8九",
+          "右": null,
+          "左下": null,
+          "下": null,
+          "右下": null
+        },
+        "direct_attackers": [
+          {
+            "piece_type": "角",
+            "color": "先手",
+            "square": "8八"
+          }
+        ]
+      }
+    }
+  },
+  "dynamic": {
+    "moves_between": [
+      "4g4f",
+      "6c6d",
+      "3g3e",
+      "4b3b",
+      "3e3d",
+      "4c3d",
+      "2h3h",
+      "3a2b",
+      "3i3c+",
+      "2a3c",
+      "3h3d",
+      "5b4c"
+    ],
+    "score_change": 3606,
+    "material_change": 800,
+    "material_change_description": "先手の銀得",
+    "sente_safety_change": -13,
+    "gote_safety_change": 0,
+    "sente_activity_change": 390,
+    "gote_activity_change": -3670
+  }
+}
