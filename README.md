@@ -85,12 +85,6 @@ DEFAULT_MODEL_PATH = "models/model-dr2_exhi.onnx"  # ← ここを変更
 | `training_data_filtered.jsonl` | `data/training/` | スタイル例・RAG用 |
 | `idx_full.npz` | `data/rag/` | RAG埋め込みベクトル |
 | `idx_full.meta.jsonl` | `data/rag/` | RAGメタデータ |
-**パス変更方法**: コマンドラインオプションで指定
-```bash
-python -m src.training.generate_commentary_openai \
-    --rag-index "path/to/rag/index_base" \
-    --style-examples-jsonl "path/to/training_data.jsonl"
-```
 ---
 ## 使用方法
 ### 単一局面の解説生成
