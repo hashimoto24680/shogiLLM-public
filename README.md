@@ -9,18 +9,12 @@
 - **RAG (Retrieval-Augmented Generation)**: 類似局面の参考例をプロンプトに含める
 - **解説文生成**: OpenAI GPTを使用して自然な日本語の解説文を生成
 
-## 公開版でユーザーが準備するもの
-- OpenAI APIキー（環境変数 `OPENAI_API_KEY`）
-- OpenAI利用モデル名（例: `OPENAI_MODEL`）
-- （任意）埋め込みモデル名（例: `OPENAI_EMBEDDING_MODEL`）
-- 将棋エンジン（YaneuraOu）、Maia2 ONNXモデル、訓練データ（棋譜コメント）
-  ※ 詳細は[セットアップ](#セットアップ)を参照
-## 必要条件
+## 再現に必要なもの
 - Python 3.11+
 - OpenAI API キー
 - 将棋エンジン（YaneuraOu）
 - Maia2 ONNXモデル
-- 訓練データ（棋譜コメント）
+- 棋譜コメント（順位戦の棋譜コメント、順位戦・名人戦のコメント付き棋譜など）
 
 ## セットアップ
 ### 1. 依存関係のインストール
